@@ -1,5 +1,5 @@
 /**
- * main.scss.in - Luna (Blue) Style GTK 3 Theme Root Document
+ * main.scss.in - Slate Style GTK 3 Theme Root Document
  *
  * This source-code is part of the Windows XP stuff for XFCE:
  * <<https://www.oddmatics.uk>>
@@ -4609,20 +4609,19 @@ box.wintc-button-box:vertical button {
 button.wintc-start-button {
   border-style: solid;
   border-top-width: 2px;
-  border-right-width: 9px;
-  border-bottom-width: 2px;
+  border-right-width: 13px;
+  border-bottom-width: 3px;
   border-left-width: 5px;
   border-image-slice: 2 13 3 5;
   padding-top: 0px;
   padding-right: 0px;
   padding-bottom: 0px;
   padding-left: 0px;
+  text-shadow: 1px 1px 2px #152404;
   font-family: Franklin Gothic Medium;
   font-size: 14pt;
+  color:white;
   font-style: italic;
-
- color:transparent;	
-
   background-size: 100% 100%;
   background-image: url("../Resources/start_button_body.png"), linear-gradient(179deg, #96c496 0%, #368f37 15%, #368f37 35%, #3d9f3e 60%, #3d983d 100%);
   border-image-source: url("../Resources/start_button_border.png");
@@ -4690,7 +4689,8 @@ window.csd.wintc-personal-menu {
       margin-right: 0px;
       margin-bottom: 2px;
       margin-left: 1px;
-      box-shadow: none; }
+      box-shadow: none; 
+}
     .start-userpane label {
       margin-top: 8px;
       margin-right: 8px;
@@ -4891,3 +4891,4 @@ window.csd.wintc-personal-menu {
   background-image: url("../Resources/taskband_tray_horz_body.png");
   border-image-slice: 5 0 3 16;
   margin-left: 7px; }
+
